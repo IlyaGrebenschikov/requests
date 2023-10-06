@@ -18,7 +18,7 @@ alphabet = list('абвгдеёжзийклмнопрстуфхцчшщъыьэ�
 while True:
     result = get_messages_from_site()
     
-    if result == str(result):
+    if type(result) == str:
         print(result)
         
     time.sleep(1)
