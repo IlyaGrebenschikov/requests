@@ -16,7 +16,7 @@ def get_messages_from_site():
 alphabet = list('абвгдеёжзийклмнопрстуфхцчшщъыьэюя')
     
 while True:
-    result = get_messages_by_site()
+    result = get_messages_from_site()
     
     if result == str(result):
         print(result)
